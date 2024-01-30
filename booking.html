@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Day - Booking</title>
+    <meta name="description" content="A hair saloon specialized in bright colors">
+    <meta name="author" content="Hair Day Saloon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Logo-->
+    <header>
+        <img src="./assets/Artboard 19.png" alt="">
+    </header>
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        
+        <div class="form">
+            <form class="survey-form">
+                <h2>Booking form</h2>
+                <!--Basic info-->
+                <div class="form-group">
+                    <label for="name" id="name-label">Name</label>
+                    <input id="name" type="text" required placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label">Email</label>
+                    <input id="email" type="email" required placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" name="tel" placeholder="Enter your Phone number" id="tel" required>
+                </div>
+                <!--Radio menu-->
+                <div class="form-group">
+                    <label for="radio">Have you ever booked with us?</label>
+                    <label for="yes"><input type="radio" name="radio-group" class="radio-group" id="not-sure" value="1"> Yes</label>
+                    <label for="no"><input type="radio" name="radio-group" class="radio-group" id="no" value="3">No</label>
+                </div>
+                <!--Checkbox-->
+                <div class="form-group">
+                    <label>Choose you service </label>
+
+                    <label for="wash"><input type="checkbox" class="checkbox" value="0" id="wash"> Wash & Blowdry</label>
+                    
+                    <label for="cut_blow"><input type="checkbox" class="checkbox" value="1" id="cut_blow"> Cut & Blowdry</label>
+                  
+                    <label for="cut_style"><input type="checkbox" class="checkbox" value="2" id="cut_style"> Cut & Style</label>
+                    
+                    <label for="color"><input type="checkbox" class="checkbox" value="3" id="color"> Color</label>
+                    
+                    <label for="cut_color"><input type="checkbox" class="checkbox" value="4" id="cut_color"> Cut & Color</label>
+                  </div>
+                <!--Dropdown menu-->
+                <div class="form-group">
+                    <label for="dropdown">Choose your stylist </label>
+                    <select id="dropdown">
+                      <option value="0">Choose your stylist</option>
+                      <option value="1">Classic Styler</option>
+                      <option value="2">Professional Styler</option>
+                      <option value="3">Master Styler</option>
+                      <option value="4">Color Styler</option>
+                      <option value="5">No preference</option>
+                    </select>
+                </div>
+                <!--Date picker-->
+                <div class="form-group">
+                    <label for="meeting-time">Choose a time for your appointment:</label>
+
+                    <input id="date" type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" />
+                </div>
+                <!--Text area-->
+                <div class="form-group">
+                    <label for="textarea">Do you have any additional comments? </label>
+                    <textarea name="comment" id="coment" cols="30" rows="10" class="textarea" placeholder="Put your comments here..."></textarea>
+                </div>
+                <!--submit button-->
+                <div class="form-group">
+                    <!--<input id="submit" type="button" class="button"> -->
+                    <button class="button" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--Footer logo-->
+    <footer>
+        <div>
+            <img src="./assets/Artboard 22.png" alt="Logo hair day">
+        </div>
+        <!--Footer Copyright-->
+        <div>
+            <p>Copyright &copy; <strong>Ana</strong></p>
+        </div>
+    </footer>
+</body>
+</html>
