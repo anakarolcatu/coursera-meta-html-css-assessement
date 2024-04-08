@@ -10,6 +10,7 @@ For this project, the goal was to create a webpage for a business based on speci
 - A footer section should be included.
 
 ## Preview
+[Live preview](https://coursera-meta-html-css-assessement.vercel.app/)
 
 ![Captura de tela_8-4-2024_193822_](https://github.com/anakarolcatu/coursera-meta-html-css-assessement/assets/151869218/19726d0a-13cc-4dd9-af33-24c7aebb8507)
 
